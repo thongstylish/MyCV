@@ -1,0 +1,564 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    /* background-image: url('../img/background/sky-night.jpg');
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+
+
+ /* Begin: Common */
+ html {
+     scroll-behavior: smooth;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+
+.text-white {
+     color: #FFF !important;
+}
+
+.col {
+    float: left;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+.prl-10 {
+    padding: 0 100px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-opacity {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.see-more {
+    text-decoration: none;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.p-progress-5 {
+    padding: 5px;
+}
+    
+    
+    
+/* End: Common */
+    
+
+
+#main {
+
+}
+
+#header {
+}
+
+#tng {
+    margin-left: 10px;
+}
+
+.info-top a {
+    text-decoration: none;
+}
+
+.wrap-menu-mobile {
+    display: none;
+}
+
+#header .mobile-menu-btn,
+#header .user-avatar {
+    position: relative;
+}
+
+#header .header-fixed {
+    position: fixed;
+    width: 100%;
+}
+
+.user-control {
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 1px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: initial;
+    /* display: none; */
+    border-radius: 6px;
+}
+
+
+#header .user-control li {
+    width: 100%;
+    display: block;
+}
+
+#header .user-control li:hover {
+    background-color: #575cff;
+    display: block;
+    color: #FFF;
+}
+
+#header .user-control li:first-child:hover{
+    border-radius: 5px 5px 0 0;
+}
+
+#header .user-control li:last-child:hover{
+    border-radius: 0 0 5px 5px;
+}
+
+#header .user-control a:hover {
+    color: #FFF;
+}
+
+.user-control a {
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+    display: block;
+    padding: 0 15px;
+    line-height: 35px;
+}
+
+
+
+
+#header .user-control li:hover i {
+    color: #FFF;
+}
+
+.user-control i {
+    margin-right: 7px;
+    color: #575cff;
+}
+
+#header .user-icon {
+    font-size: 30px;
+    margin-right: 5px;
+    color: #FFF;
+}
+
+.search-input {
+    height: 34px;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+#mobile-menu,
+.search-btn {
+    padding: 6px 9px;
+    font-size: 22px;
+    z-index: 1;
+}
+
+#mobile-menu,
+.search-btn i {
+    color: #FFF;
+}
+
+#header .info-top {
+    z-index: 1;
+}
+
+#header .search-btn:hover,
+#header .user-icon:hover {
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+.page-name {
+    text-align: center;
+    padding: 50px 0 20px;
+    color: #000;
+}
+
+.first-page-name {
+    margin-top: 40px;
+}
+
+.page-name p {
+    padding-top: 5px;
+}
+
+#nav {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style-type: none;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+     position: fixed;
+     top: 0;
+     transition: background .5s;
+     font-weight: 600;
+     background-color: rgba(87, 92, 252, 0.9);
+     width: 100%;
+}
+
+#nav li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 13px 50px;
+}
+
+#nav > li:hover {
+    color: #FFF;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    transition: background .5s;
+}
+
+#nav > li  {
+    text-transform: uppercase;
+    line-height: 46px;
+}
+
+/* .sticky > li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    transition: background .5s;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    transition: background .5s;
+    font-weight: 600;
+    background-color: rgba(87, 92, 252, 0.8);
+} */
+
+/* .scrolled {
+    background: #575cff;
+
+}
+
+.scrolled a {
+    color: #FFF !important;
+}
+
+.scrolled li:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+} */
+
+#slider {
+    margin-bottom: 50px;
+}
+
+.img-slider {
+    width: 100%;
+
+}
+
+
+
+
+#content {
+
+}
+
+#content .about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content .img-about-container {
+    text-align: center;
+}
+
+#content .img-about {
+    margin-top: 10px;
+    max-width: 60%;
+}
+
+#content .img-about:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.content-section {
+
+}
+
+#about-section {
+    display: flex;
+}
+
+.vertical-line {
+    border-left: 2px solid rgba(87, 92, 252, 0.8);
+    height: 500px;
+    left: 50%;
+    margin-left: 20px;
+    bottom: 0;
+    margin-top: 36px;
+}
+
+
+#work-exp-section {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: initial;
+
+}
+
+.exp-top {
+    height: 200px;
+}
+
+#content .exp-activity {
+    padding-right: 108px;
+}
+
+#work-exp-section .btn-all-exp {
+
+}
+
+#work-exp-section .btn-all-exp:hover {
+    background-color: #0b5ed7;
+    border: 1px solid #575cff;
+}
+
+#work-exp-section .exp-company {
+    padding-right: 50px;
+}
+
+.position-company,
+.working-time {
+    color: rgb(117, 117, 117);
+    font-style: italic;
+    font-size: 14px;
+    padding-bottom: 0;
+}
+
+.company-name {
+    margin-top: 10px;
+}
+
+
+#skills-section {
+    
+}
+
+#skills-section .skills-title {
+    margin-top: 30px;
+}
+
+#skills-section .progress-skills {
+    margin-top: 50px;
+}
+ 
+.skill-list {
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.skills-type {
+
+}
+
+
+.btn-soft-skill,
+.btn-half-skill {
+    display: none!important;
+}
+
+.more-skills {
+    margin-top: 20px;
+}
+
+/* _______ BEGIN ACCORDION _______ */
+.accordion {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 91%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 20px;
+    border-radius: 7px;
+  }
+  
+.active, .accordion:hover {
+    background-color: #448fff;
+    color: rgba(255, 255, 255, 1);
+}
+
+.active {
+    border-radius: 10px 10px 0 0;
+}
+  
+.accordion:after {
+    content: '\2228';
+    color: rgb(136, 136, 136);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.active:after {
+    content: "\2227";
+    color: #FFF;
+  }
+
+.accordion:hover::after{
+      color: #FFF;
+}
+  
+.panel {
+    padding: 0 18px;
+    background-color: #dcdcdc;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 91%;
+    border-radius: 0 0 10px 10px;
+  }
+
+/* _______ END ACCORDION _______ */
+
+
+
+
+.progress {
+    width: 85%;
+    margin-top: 9px;
+    height: 9px!important;
+}
+
+.progress:hover {
+    opacity: 0.7;
+}
+
+
+#contact-section {
+    background-color: #f1f1f1;
+}
+
+#contact-section .contact-content {
+    display: flex;
+}
+
+#contact-section .contact-title {
+    margin-top: 28px;
+    text-align: center;
+}
+#contact-section .contact-me,
+#contact-section .contact-info {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#contact-section .icon-contact {
+    margin-right: 10px;
+}
+
+#contact-section a {
+    text-decoration: none;
+}
+
+button.btn-send {
+    padding: 8px 25px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+#description-section {
+
+}
+
+#footer {
+    text-align: center;
+    background-color: rgba(87, 92, 252, 0.9);
+}
+
+#footer .logo-footer {
+    font-size: 50px;
+    color: #FFF;
+}
+.social-list {
+    padding: 15px 0;
+}
+
+.social-list i{
+    color: #FFF;
+    font-size: 23px;
+    padding: 0 15px;
+}
+
+.social-list i:hover {
+    opacity: 0.8;
+}
+
+#footer .copyright {
+    color: #FFF;
+    padding-bottom: 15px;
+}
+
+#footer .copyright a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#footer .copyright a:hover {
+    opacity: 0.8;
+}
+
+#footer .text-footer {
+    font-size: 15px;
+}
+
+#footer .text-footer p {
+    font-style: italic;
+}
+
+/* Begin: Modal */
+/* #seeAllModal {
+    display: block;
+} */
+
+/* End: Modal */

@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-beta2-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div id="main" class="js-main">
+        <!-- ------- Begin: header ------- -->
+        <div id="header">
+
+            <div class="d-flex justify-content-between header-fixed bgc-mobile">
+
+            
+                    <!-- Menu nav Mobile -->
+                    <div class="wrap-menu-mobile" onclick="openMenuMobile()" >
+                        <i id="mobile-menu" class="fas fa-bars mobile-menu-btn"></i>
+                    </div>
+
+
+                <div class="info-top">
+                    <a href="">
+                        <h2 id="tng" class="text-white">
+                            <i class="fab fa-pied-piper"></i> TNG
+                        </h2>
+                    </a>
+                    
+                    <!-- avt icon user control  -->
+                    <ul id="js-user-control" class="user-control" style="display : none">
+                        <li><a href="#"><i class="fas fa-info-circle"></i>Account</a></li>
+                        <li><a href="#"><a href=""><i class="fas fa-key"></i>Password</a></li>
+                        <li><a href="#"><a href=""><i class="fas fa-exchange-alt"></i>Switch Account</a></li>
+                        <li><a href="#"><a href=""><i class="fas fa-sign-out-alt"></i>Log Out</a></li>
+                    </ul>
+                </div>
+                
+
+                <!--------- Begin: nav ------- -->
+                <ul id="nav" class="top-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#content">About</a></li>
+                    <li><a href="#work-exp-section">experience</a></li>
+                    <li><a href="#skills-section">SKILLS</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+                
+
+                <div class="d-flex justify-content-end">
+                
+                    <!-- <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search"> -->
+                    <div class="search-btn">
+                        <i class="fas fa-search search-btn"></i>
+                    </div>
+                    
+                    <!-- click on user control -->
+                    <div onclick="menuUserControl()" class="p-2 bd-highlight user-avatar">
+                        <i class="fas fa-user-circle user-icon"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="page-name">
+                <h1 class="first-page-name">Information</h1>
+                <p>The Ultimate</p>
+            </div>
+            
+            <!-- ------- Begin: Slider ------- -->
+            <div id="slider">
+                <img class="img-slider" src="./assets/img/slider/cover.jpg" alt="slider">
+            </div>
+            <!-- ------- End: Slider ------- -->
+            
+        </div>
+        <!-- ------- End: header ------- -->
+
+
+
+        <!-- ------- Begin: content ------- -->
+        <div id="content" class="">
+
+        <!-- ------- Begin: About Section ------- -->
+            <div id="about-section" class="content-section prl-10">
+                <div class="col-6 d-flex justify-content-around align-items-center col-full-mobile">
+                    <div class="d-flex flex-column bd-highlight mb-3 ">
+                        <div class="p-2 bd-highlight ">
+                            <h1 class="text-center">ABOUT</h1>
+                        </div>
+                        <div class="p-2 bd-highlight align-self-end img-about-container">
+                            <img class="img-about img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/f/f4/User_Avatar_2.png" alt="ảnh">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 d-flex justify-content-around align-items-center text-justify col-full-mobile"> 
+                    <div class="d-flex flex-column bd-highlight mb-3 ">
+                        <div class="p-2 bd-highlight ">
+                            <h3 class="text-center">I'm TNG</h3>
+                        </div>
+                        <div class="p-2 bd-highlight ">
+                            <p class="">
+                                Information ulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh t
+                                Information ulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh t
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        <!-- ------- End: About Section ------- -->
+
+        <!-- ------- Begin: Work experience Section ------- -->
+        <div id="work-exp-section" class="content-section">
+                
+            <div class="col-6 d-flex justify-content-around align-items-center">
+                <div class="d-flex align-items-start flex-column bd-highlight mb-3 exp-top">
+                    <div class="p-2 bd-highlight exp-title-mobile">
+                        <h1>Experience</h1>
+                    </div>
+                    <div class="p-2 bd-highlight "> 
+                        <p>
+                            Information ulum augue ut aliquet.
+                        </p> 
+                        <p>
+                            Information ulum augue ut aliquet.
+                        </p> 
+                    </div>
+                    
+                    <div class="p-2 bd-highlight exp-desc-mobile">
+                        <button type="button" class="btn btn-primary btn-all-exp" data-bs-toggle="modal" data-bs-target="#see-all-modal">See All</button>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="col-6 d-flex justify-content-around align-items-center text-justify exp-company"> 
+
+                <div class="exp-company d-flex align-items-start flex-column bd-highlight mb-3">
+                    <div class="mb-auto p-2 bd-highlight">
+                        <h4 class="company-name">Company A</h4>
+                        <p class="working-time">01/01/2021 - 12/01/2021</p>
+                        Position: ABCXYZ
+                        Information ulum augue ut aliquet.
+                        Information ulum augue ut aliquet.
+                        asdasd
+                        <a class="see-more" href="" data-bs-toggle="modal" data-bs-target="#A-see-exp-modal">See more...</a>
+                    </div>
+                    <div class="p-2 bd-highlight mt-25">
+                        <h4 class="company-name">Company B</h4>
+                        <p class="working-time">01/01/2021 - 12/01/2021</p>
+                        Position: ABCXYZ
+                        Information ulum augue ut aliquet.
+                        Information ulum augue ut aliquet.
+                        asdasd
+                        <a class="see-more" href="" data-bs-toggle="modal" data-bs-target="#B-see-exp-modal">See more...</a>
+                    </div>
+                </div>
+                        
+                <div class="exp-company d-flex align-items-end flex-column bd-highlight mb-3 ml-30">
+                    <div class="p-2 bd-highlight">
+                        <h4 class="company-name">Company C</h4>
+                        <p class="working-time">01/01/2021 - 12/01/2021</p>
+                        Position: ABCXYZ
+                        Information ulum augue ut aliquet.
+                        Information ulum augue ut aliquet.
+                        asdasd
+                        <a class="see-more" href="" data-bs-toggle="modal" data-bs-target="#C-see-exp-modal">See more...</a>                        
+                    </div>
+                    <div class="p-2 bd-highlight mt-25">
+                        <h4 class="company-name">Company D</h4>
+                        <p class="working-time">01/01/2021 - 12/01/2021</p>
+                        Position: ABCXYZ
+                        Information ulum augue ut aliquet.
+                        Information ulum augue ut aliquet.
+                        asdasd
+                        <a class="see-more" href="" data-bs-toggle="modal" data-bs-target="#D-see-exp-modal">See more...</a>
+                    </div>
+                </div>                    
+            </div>
+        </div>
+        <!-- ------- End:  Work experience Section ------- -->
+
+        <!-- ------- Begin: Skills Section ------- -->
+        <div id="skills-section" class="prl-10 mb-80">
+            <div class="d-flex justify-content-center skills-title">
+                <h1>SKILLS</h1>
+            </div>
+
+            <div class="container progress-skills">
+                <!-- Row in Skills section -->
+                <div class="row">
+
+                    <!-- ________________ col HARD SKILLS ________________ -->
+                    <div class="col-6 skills-type">
+                        <h3 class="skill-title">HARD SKILLS</h3>
+                    <!-- Begin: hard skills 1 -->
+                        <!-- row in hard skills 1 -->
+                        <div class="row p-progress-5">
+                            <!-- col name hard skills 1 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill a
+                                </div>
+                            </div>
+                            <!-- col progress bar hard skills 1 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: hard skills 1 -->
+
+                    <!-- Begin: hard skills 2 -->
+                        <!-- row in hard skills 2 -->
+                        <div class="row p-progress-5">
+                            <!-- col name hard skills 2 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill b
+                                </div>
+                            </div>
+                            <!-- col progress bar hard skills 2 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: hard skills 2 -->
+
+                    <!-- Begin: hard skills 3 -->
+                        <!-- row in hard skills 3 -->
+                        <div class="row p-progress-5">
+                            <!-- col name hard skills 3 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill c
+                                </div>
+                            </div>
+                            <!-- col progress bar hard skills 3 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: hard skills 3 -->
+
+                    <!-- Begin: hard skills 4 -->
+                        <!-- row in hard skills 4 -->
+                        <div class="row p-progress-5">
+                            <!-- col name hard skills 4 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill d
+                                </div>
+                            </div>
+                            <!-- col progress bar hard skills 4 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: hard skills 4 -->
+
+                    <!-- Begin: See More skill -->
+                        <div class="row">
+                            <div class="col-2">
+
+                            </div>
+                            <div class="col-10 more-skills">
+                                <button class="accordion">Other Skills...</button>
+                                <div class="panel">
+
+                            <!-- Begin: hard skills 5 -->
+                            <div class="container">
+                                <!-- row in hard skills 5 -->
+                                <div class="row p-progress-5" style="margin-top:10px">
+                                    <!-- col name hard skills 5 -->
+                                    <div class="col-4">
+                                        <div class="skill-list">
+                                            Skill E
+                                        </div>
+                                    </div>
+                                    <!-- col progress bar hard skills 5 -->
+                                    <div class="col-8">
+                                        <div class="progress">
+                                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- End: hard skills 5 -->
+
+                            <!-- Begin: hard skills 6 -->
+                                <!-- row in hard skills 6 -->
+                                <div class="row p-progress-5" style="margin-bottom: 12px;">
+                                    <!-- col name hard skills 6 -->
+                                    <div class="col-4">
+                                        <div class="skill-list">
+                                            Skill F
+                                        </div>
+                                    </div>
+                                    <!-- col progress bar hard skills 6 -->
+                                    <div class="col-8">
+                                        <div class="progress">
+                                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- End: hard skills 6 -->
+                            </div>
+                                
+
+                                </div>
+                            </div>
+                        </div>
+                <!-- End: See More skill -->
+
+                    </div>
+
+                    <!-- ________________ col SOFT SKILLS ________________ -->
+                    <div class="col-6 skills-type">
+                       <h3 class="skill-title">SOFT SKILL</h3>
+                    <!-- Begin: soft skills 1 -->
+                        <!-- row in soft skills 1 -->
+                        <div class="row p-progress-5">
+                            <!-- col name hard skills 1 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill a
+                                </div>
+                            </div>
+                            <!-- col progress bar soft skills 1 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: soft skills 1 -->
+
+                    <!-- Begin: soft skills 2 -->
+                        <!-- row in soft skills 2 -->
+                        <div class="row p-progress-5">
+                            <!-- col name soft skills 2 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill b
+                                </div>
+                            </div>
+                            <!-- col progress bar soft skills 2 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: soft skills 2 -->
+
+                    <!-- Begin: soft skills 3 -->
+                        <!-- row in soft skills 3 -->
+                        <div class="row p-progress-5">
+                            <!-- col name soft skills 3 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill c
+                                </div>
+                            </div>
+                            <!-- col progress bar soft skills 3 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: soft skills 3 -->    
+
+                    <!-- Begin: soft skills 4 -->
+                        <!-- row in soft skills 4 -->
+                        <div class="row p-progress-5">
+                            <!-- col name soft skills 4 -->
+                            <div class="col-6">
+                                <div class="skill-list">
+                                    Skill d
+                                </div>
+                            </div>
+                            <!-- col progress bar soft skills 4 -->
+                            <div class="col-6">
+                                <div class="progress">
+                                    <div class="progress-bar w-100" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- End: soft skills 4 -->   
+
+                    <!-- Begin: See More skill -->
+                    <div class="row">
+                        <div class="col-2">
+
+                        </div>
+                        <div class="col-10 more-skills">
+                            <button class="accordion">Other Skills...</button>
+                        <div class="panel">
+
+                        <!-- Begin: soft skills 5 -->
+                            <div class="container">
+                                <!-- row in soft skills 5 -->
+                                <div class="row p-progress-5" style="margin-top:10px">
+                                    <!-- col name soft skills 5 -->
+                                    <div class="col-4">
+                                        <div class="skill-list">
+                                            Skill E
+                                        </div>
+                                    </div>
+                                    <!-- col progress bar soft skills 5 -->
+                                    <div class="col-8">
+                                        <div class="progress">
+                                            <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- End: soft skills 5 -->
+
+                            <!-- Begin: soft skills 6 -->
+                                <!-- row in soft skills 6 -->
+                                <div class="row p-progress-5" style="margin-bottom: 12px;">
+                                    <!-- col name soft skills 6 -->
+                                    <div class="col-4">
+                                        <div class="skill-list">
+                                            Skill F
+                                        </div>
+                                    </div>
+                                    <!-- col progress bar soft skills 6 -->
+                                    <div class="col-8">
+                                        <div class="progress">
+                                            <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- End: soft skills 6 -->
+                            </div>
+                            
+
+                        </div>
+                        </div>
+                    </div>
+            <!-- End: See More skill -->
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-outline-primary w-100 btn-half-skill">HARD SKILLS</button>
+            <button type="button" class="btn btn-outline-success w-100 btn-soft-skill">SOFT SKILLS</button>
+
+        </div>
+        <!-- ------- End:  Skills Section ------- -->
+
+
+        <!-- ------- Begin: Contact Section ------- -->
+        <div id="contact-section" class="content-section prl-10">
+            <div class="d-flex justify-content-center">
+                <h1 class="contact-title">CONTACT</h1>
+            </div>
+
+            <div class="contact-content prl-10">
+                <div class="container">
+                    <div class="row">
+                        <!-- col Contact Info -->
+                        <div class="col-6 contact-info-mobile">
+                            <h5 class="contact-info">Contact Information</h5>
+
+                            <div class="basic-info">
+                                <p>
+                                    <i class="fas fa-map-marker-alt icon-contact"></i>
+                                    Address: Champ de Mars, 5 Av. Anatole France, 75007 Paris, France
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone-alt icon-contact"></i>
+                                    Phone: <a href="tel:0978645737">0978.645.737</a>  
+                                </p>
+                                <p>
+                                    <i class="fas fa-envelope icon-contact"></i>
+                                    Email: <a href="mailto:tranthongspkt@gmail.com">tranthongspkt@gmail.com</a>
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <!-- col Contact Form -->
+                        <div class="col-6 contact-form-mobile">
+                            <div class="row">
+                                <h5 class="contact-me">Contact Me</h5>
+                                <div class="col-6 contact-name-mobile">
+                                    <div class="mb-4">
+                                        <label for="form-name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="form-name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-6 contact-company-mobile">
+                                    <div class="mb-4">
+                                        <label for="form-company" class="form-label">Company</label>
+                                        <input type="text" class="form-control" id="form-company" placeholder="Company Name">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 contact-email-mobile">
+                                    <div class="mb-4">
+                                        <label for="form-email" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
+                                    </div>
+                                </div>
+                                <div class="col-6 contact-phone-mobile">
+                                    <div class="mb-4">
+                                        <label for="form-phone" class="form-label">Phone</label>
+                                        <input type="text" class="form-control" id="form-phone" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="form-message" class="form-label">Message</label>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">Write something for me...</label>
+                                  </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-send">SEND</button>
+
+                        </div>
+                    </div>
+                      
+                </div>
+            </div>
+        <!-- ------- End: Contact Section ------- -->
+        </div>
+        <!-- ------- End: content ------- -->
+
+
+        <!-- ------- Begin: Footer ------- -->
+        <div id="footer">
+            <div>
+                <div class="logo-footer">
+                    <i class="fab fa-pied-piper"></i>
+                    <h4>TNG</h4>
+                    <div class="text-footer">
+                        <p>
+                            Welcome to visit TNG page
+                        </p>
+                        <p>
+                            Contact me !
+                        </p>
+                        <p>
+                            Your Company in one of the biggest in my field and I can help your Company create more innovative product .
+                        </p>  
+                    </div>
+                    
+                </div>
+                <div class="social-list">
+                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                    <a href=""><i class="fab fa-instagram-square"></i></a>
+                    <a href=""><i class="fab fa-youtube-square"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            <p class="copyright">Designed - Powered by <a href="https://www.facebook.com/huyvo257">HV</a></p>
+            </div>
+            
+        </div>
+        <!-- ------- End: Footer ------- -->
+    </div>
+
+    <!-- ________________ Modal ________________ -->
+
+    <!-- Begin: Modal See More Exp A -->
+    <div class="modal fade" id="A-see-exp-modal" tabindex="-1" aria-labelledby="A-see-exp-ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="d-flex flex-column bd-highlight">
+                    <div class="bd-highlight"><h5>Company A</h5></div>
+                    <div class="bd-highlight position-company">Position: ABCXYZ</div>
+                </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End: Modal See More Exp A -->
+
+    <!-- Begin: Modal See More Exp B -->
+    <div class="modal fade" id="B-see-exp-modal" tabindex="-1" aria-labelledby="B-see-exp-ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="d-flex flex-column bd-highlight">
+                    <div class="bd-highlight"><h5>Company B</h5></div>
+                    <div class="bd-highlight position-company">Position: ABCXYZ</div>
+                </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End: Modal See More Exp B -->
+
+    <!-- Begin: Modal See More Exp C -->
+    <div class="modal fade" id="C-see-exp-modal" tabindex="-1" aria-labelledby="C-see-exp-ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="d-flex flex-column bd-highlight">
+                    <div class="bd-highlight"><h5>Company C</h5></div>
+                    <div class="bd-highlight position-company">Position: ABCXYZ</div>
+                </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End: Modal See More Exp C -->
+
+    <!-- Begin: Modal See More Exp D -->
+    <div class="modal fade" id="D-see-exp-modal" tabindex="-1" aria-labelledby="D-see-exp-ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="d-flex flex-column bd-highlight">
+                    <div class="bd-highlight"><h5>Company D</h5></div>
+                    <div class="bd-highlight position-company">Position: ABCXYZ</div>
+                </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                    Information ulum augue ut aliquet.
+                </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End: Modal See More Exp D -->
+
+    <!-- Begin: Modal See All Exp -->
+    <div class="modal fade" id="see-all-modal" tabindex="-1" aria-labelledby="see-all-ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="see-all-modal">Experience</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Processing...
+                </p> 
+                <!-- Pagination -->
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#A-see-exp-modal">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#B-see-exp-modal">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#C-see-exp-modal">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#D-see-exp-modal">4</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End: Modal See All Exp -->
+      
+
+    <!-- <style>
+        .dropbtn {
+          background-color: #3498DB;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+        
+        .dropbtn:hover, .dropbtn:focus {
+          background-color: #2980B9;
+        }
+        
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          overflow: auto;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        
+        .dropdown a:hover {background-color: #ddd;}
+        
+        .show {display: block;}
+        </style>
+        </head>
+        <body>
+        
+        <h2>Clickable Dropdown</h2>
+        <p>Click on the button to open the dropdown menu.</p>
+        
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        
+        <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script> -->
+        
+    
+    
+
+</head>
+
+
+    <script>
+
+        //  change css nav when scroll down 
+        // var navbar = document.querySelector('#nav')
+
+        // window.onscroll = function() {
+
+        //     // pageYOffset or scrollY
+        //     if (window.pageYOffset > 274) {
+        //         navbar.classList.add('scrolled')
+        //     } else {
+        //         navbar.classList.remove('scrolled')
+        //     }
+        // }
+
+        // open menu user control
+        function menuUserControl() {
+            var menuUser = document.getElementById("js-user-control");
+            if (menuUser.style.display === "none") {
+                menuUser.style.display = "block";
+            } else {
+                menuUser.style.display = "none";
+            }
+        }
+
+        // click outside hide menu user control
+        window.addEventListener('mouseup', function(event){
+	        var box = document.getElementById('js-user-control');
+	    if (event.target != box && event.target.parentNode != box){
+            box.style.display = 'none';
+            }
+        });
+
+
+    function openMenuMobile() {
+    document.getElementById("nav").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+    if (!event.target.matches('.mobile-menu-btn')) {
+        var dropdowns = document.getElementsByClassName("top-nav");
+        var i;
+            for (i = 0; i < dropdowns.length; i++) {
+
+            var openDropdown = dropdowns[i];
+
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+
+
+    //     //  Accordion
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+    }
+
+    // //  Open Menu mobile
+    // function openMenuMobile() {
+    //     var openMenu = document.getElementById("nav");
+    //     if (openMenu.className === "top-nav") {
+    //         openMenu.className += " open-menu-mobile";
+    //     } else {
+    //         openMenu.className = "top-nav";
+    //     }   
+    // }
+
+    //
+    // Tự động đóng khi chọn trong menu
+    // click outside hide menu user control  
+    // var taptoClose = document.getElementsByClassName('open-menu-mobile');
+
+    // window.onclick = function(event) {
+    //     if (event.target == taptoClose) {
+    //         taptoClose.style.display = "none";
+    //     }
+    // }   .
+
+    // var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+
+    //     for (var i = 0 ; i < menuItems.length; i++) {
+    //         var menuItem = menuItems[i];
+
+    //         menuItem.onclick = function (event) {
+    //                          //  1 thẻ anh chị em liền kề  &&  //  1 thẻ anh chị em liền kề có class = sub-nav
+    //         var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('sub-nav');
+
+    //         if (isParentMenu) {
+    //                 event.preventDefault();
+    //             } else {
+                    
+    //             }
+    //         }
+    //     }
+
+
+    </script>
+    
+</body>
+</html>

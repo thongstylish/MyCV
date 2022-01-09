@@ -1,0 +1,225 @@
+/* PC */
+@media (min-width: 1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    #about-section {
+        display: block;
+    }
+    .col-6.d-flex.justify-content-around.align-items-center.text-justify.col-full-mobile,
+    .col-6.d-flex.justify-content-around.align-items-center.col-full-mobile {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #mobile-menu {
+        display: none;
+    }
+
+    #nav li a {
+        padding: 13px 21px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #header .wrap-menu-mobile {
+        padding-top: 7px;
+        display: block;
+    }
+    .show li a {
+        display: block!important;
+        padding: 1px 50px;
+        text-align: center;
+        
+    }
+
+
+    #nav.show {
+        animation: menuFadeIn ease 0.8s;
+    }
+    
+    #about-section {
+        padding: 0 10px;
+    }
+
+    #content .img-about {
+        max-width: 70%;
+    }
+    #nav {
+        display: block;
+        padding-left: 0;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li:first-child {
+        margin-top: 45px;
+    }
+    #nav li a {
+        padding: 0 21px;
+    }
+
+    .top-nav li a {
+        display: none;
+    }
+
+    #header .info-top {
+        margin-left: 50px;
+        margin-top: 8px;
+    }
+
+
+    .top-nav a {
+        display: block;
+    }
+
+    /* #nav.top-nav.open-menu-mobile a {
+        display: block!important;
+        padding: 1px 50px;
+        text-align: center;
+    }
+
+    #nav.top-nav.open-menu-mobile {
+        animation: menuFadeIn ease 0.8s;
+    } */
+
+    #nav {
+        background-color: rgba(87, 92, 252, 0.95);
+    }
+
+    .bgc-mobile {
+        background-color: rgba(87, 92, 252, 0.8);
+        height: 45px;
+        z-index: 1;
+    }
+
+
+    #work-exp-section {
+        display: block;
+        padding-bottom: 10px!important;
+    }
+
+    .col-6.d-flex.justify-content-around.align-items-center {
+        width: 100%;
+    }
+
+    #work-exp-section .exp-desc-mobile {
+        display: none;
+        height: 0;
+    }
+
+    #work-exp-section .exp-top {
+        margin-bottom: 0!important;
+    }
+    
+    .exp-title-mobile {
+        margin-top: 30px;
+    }
+
+    #work-exp-section .exp-company {
+        padding: 0 8px;
+        display: block!important;
+        margin-left: 0;
+    }
+
+    #skills-section {
+        padding: 0 20px;
+    }
+
+    .skills-type {
+        display: none;
+    }
+
+    #skills-section .progress-skills {
+        margin-top: 0;
+    }
+
+    .btn-soft-skill,
+    .btn-half-skill {
+        display: block!important;
+        margin-top: 15px;
+        height: 50px;
+        box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+    }
+
+    .contact-content,
+    #contact-section {
+        padding: 0 10px;
+        padding-bottom: 10px;
+    }
+
+    #contact-section,
+    .contact-phone-mobile,
+    .contact-company-mobile,
+    .contact-email-mobile,
+    .contact-name-mobile,
+    .contact-info-mobile {
+        display: block!important;
+        width: 100%!important;
+    }
+
+    .contact-me {
+        display: none;
+    }
+
+    .contact-info {
+        display: none;
+    }
+    
+    #contact-section .contact-title {
+        margin-bottom: 40px;
+    }
+
+    .contact-form-mobile {
+        width: 100%!important;
+    }
+
+    button.btn-send {
+        margin-bottom: 5px;
+        width: 100%;
+        margin-top: 12px;    
+    }
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    /* Create Animation */
+@keyframes menuFadeIn {
+    from {
+        opacity: 0;
+        /* Trôi từ -50px */
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        /* Trôi đến 0px */
+        transform: translateY(0);
+    }
+}
+
+
+  
+
+    
+
+}
